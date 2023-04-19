@@ -13,18 +13,40 @@ body{
     text-align: center;
     font-size: large;
     margin-bottom: 1rem;
+    font-weight: 700;
 }
 
 .conteudo-enquete{
     color: gray;
     text-align: center;
     font-size: 24px;
-    margin-bottom: 1rem;
 }
 
 .container-cards{
     color: lightsalmon;
     text-align: center;
     font-size: large;
-    margin-bottom: 1rem;
 }
+
+.container-cards p{
+    color: gray;
+    text-align: center;
+    font-size: 24px;
+}
+
+.container-cards h2{
+    color: lightsalmon;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+.inputBox {
+    max-width: 37.5rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    border-radius: 10px;
+  }
