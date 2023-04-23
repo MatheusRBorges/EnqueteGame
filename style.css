@@ -17,6 +17,7 @@ button {
     border-radius: 8px;
     font-size: large;
     color: red;
+    font-weight: 700;
 }
 
 p {
