@@ -1,45 +1,72 @@
-body{
-    background-color: #FFFFFF;
+@import url("https://fonts.googleapis.com/css2?family=Aboreto&family=Comfortaa:wght@300;400;500;600;700&family=Poiret+One&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+body {
+    background-color: lightslategrey;
 }
 
-.container{
+img {
+    width: 200px;
+    padding: 30px;
+}
+
+button {
+    margin-top: 20px;
+    width: 200px;
+    height: 30px;
+    background-color: lightgrey;
+    border-radius: 8px;
+    font-size: large;
+    color: red;
+}
+
+p {
+    text-align: center;
+    font-size: 24px;
+}
+
+.container {
     background-color: lightblue;
     text-align: center;
     justify-content: center;
 }
 
-.container .title{
-    color: lightsalmon;
+.container .title {
+    color: black;
     text-align: center;
     font-size: large;
-    margin-bottom: 1rem;
+    margin: 16px;
     font-weight: 700;
+
 }
 
-.conteudo-enquete{
-    color: gray;
+.conteudo-enquete {
+    color: black;
     text-align: center;
     font-size: 24px;
 }
 
-.container-cards{
-    color: lightsalmon;
+.display-cards {
+    color: purple;
     text-align: center;
     font-size: large;
+    display: inline-block;
+    height: 50%;
 }
 
-.container-cards p{
-    color: gray;
+.display-cards .cards {
     text-align: center;
-    font-size: 24px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 40px;
 }
 
-.container-cards h2{
+.display-cards h2 {
     color: lightsalmon;
     text-align: center;
     font-size: 30px;
     margin-bottom: 1rem;
     font-weight: 700;
+    display: inline-block;
 }
 
 .inputBox {
@@ -49,4 +76,26 @@ body{
     flex-direction: column;
     gap: 16px;
     border-radius: 10px;
-  }
+    text-align: center;
+}
+
+.inputBox input {
+    width: 100%;
+    height: 25px;
+    padding: 1.6rem 1px;
+    background-color: lightsteelblue;
+    box-shadow: 2px 2px 2px 2px rgba(1, 1, 1, 0.1);
+    border-radius: 0.5rem;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.inputBox input:focus {
+    border: none;
+    outline: none;
+}
+
+.inputBox input:hover {
+    background-color: white
+}
